@@ -17,18 +17,24 @@ Send these information using JSON format.
 ### Add task
 
 Method: POST
+
 URL: https://simple-task-tracker.onrender.com/tasks/
 
 ### Show tasks
 Method: GET
+
 URL: https://simple-task-tracker.onrender.com/
 
 ### Update task
 Method: PUT
+
 URL: https://simple-task-tracker.onrender.com/tasks/:taskid
+
 (e.g. https://simple-task-tracker.onrender.com/tasks/1 )
 
 ### Delete task
 Method: DELETE
+
 URL: https://simple-task-tracker.onrender.com/tasks/:taskid
+
 (e.g. https://simple-task-tracker.onrender.com/tasks/1 )
