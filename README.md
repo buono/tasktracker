@@ -1,25 +1,34 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is the API for your tasks.
+You can add/show/update/delete tasks using this API.
 
-Things you may want to cover:
+## How to use
 
-* Ruby version
+### Task format
 
-* System dependencies
+Send these information using JSON format.
 
-* Configuration
+* Task title (e.g. Homework)
+* Task description (e.g. Do mathmatics in page 23.)
+* Task due date (e.g. 20230830)
+* Task status (e.g. 1) -> 1: To Do, 2:In Progress, 3:Completed
 
-* Database creation
+### Add task
 
-* Database initialization
+Method: POST
+URL: https://simple-task-tracker.onrender.com/tasks/
 
-* How to run the test suite
+### Show tasks
+Method: GET
+URL: https://simple-task-tracker.onrender.com/
 
-* Services (job queues, cache servers, search engines, etc.)
+### Update task
+Method: PUT
+URL: https://simple-task-tracker.onrender.com/tasks/:taskid
+(e.g. https://simple-task-tracker.onrender.com/tasks/1 )
 
-* Deployment instructions
-
-* ...
-# tasktracker
+### Delete task
+Method: DELETE
+URL: https://simple-task-tracker.onrender.com/tasks/:taskid
+(e.g. https://simple-task-tracker.onrender.com/tasks/1 )
