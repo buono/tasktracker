@@ -90,6 +90,8 @@ test:
 #after change
 production:
   <<: *default
-  adapter: postgresql
-  encoding: unicode
-  pool: 5
+  database: taskleaf_production
+  url: <%= ENV['DATABASE_URL'] %>
+
+  #adapter: postgresql
+  #password: <%= ENV['MYSITE_DATABASE_PASSWORD'] %>

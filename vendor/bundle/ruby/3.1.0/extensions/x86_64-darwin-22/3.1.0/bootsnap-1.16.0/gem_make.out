@@ -1,0 +1,18 @@
+current directory: /Users/buono/Dropbox/RubyonRails/taskleaf/vendor/bundle/ruby/3.1.0/gems/bootsnap-1.16.0/ext/bootsnap
+/Users/buono/.rbenv/versions/3.1.2/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /Users/buono/Dropbox/RubyonRails/taskleaf/vendor/bundle/ruby/3.1.0/gems/bootsnap-1.16.0/ext/bootsnap
+make DESTDIR\= sitearchdir\=./.gem.20230831-20458-8fkrsd sitelibdir\=./.gem.20230831-20458-8fkrsd clean
+
+current directory: /Users/buono/Dropbox/RubyonRails/taskleaf/vendor/bundle/ruby/3.1.0/gems/bootsnap-1.16.0/ext/bootsnap
+make DESTDIR\= sitearchdir\=./.gem.20230831-20458-8fkrsd sitelibdir\=./.gem.20230831-20458-8fkrsd
+compiling bootsnap.c
+linking shared-object bootsnap/bootsnap.bundle
+
+current directory: /Users/buono/Dropbox/RubyonRails/taskleaf/vendor/bundle/ruby/3.1.0/gems/bootsnap-1.16.0/ext/bootsnap
+make DESTDIR\= sitearchdir\=./.gem.20230831-20458-8fkrsd sitelibdir\=./.gem.20230831-20458-8fkrsd install
+/usr/bin/install -c -m 0755 bootsnap.bundle ./.gem.20230831-20458-8fkrsd/bootsnap
+
+current directory: /Users/buono/Dropbox/RubyonRails/taskleaf/vendor/bundle/ruby/3.1.0/gems/bootsnap-1.16.0/ext/bootsnap
+make DESTDIR\= sitearchdir\=./.gem.20230831-20458-8fkrsd sitelibdir\=./.gem.20230831-20458-8fkrsd clean
